@@ -28,7 +28,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IBT-7T-dng">
-                                <rect key="frame" x="24" y="223" width="366" height="34"/>
+                                <rect key="frame" x="24" y="223" width="90.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
@@ -42,8 +42,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="IBT-7T-dng" firstAttribute="leading" secondItem="qay-wz-Hza" secondAttribute="leading" id="0PO-Lt-u6o"/>
-                            <constraint firstItem="IBT-7T-dng" firstAttribute="trailing" secondItem="qay-wz-Hza" secondAttribute="trailing" id="48R-94-F4R"/>
-                            <constraint firstItem="F7w-n1-Imw" firstAttribute="trailing" secondItem="IBT-7T-dng" secondAttribute="trailing" id="B5i-W0-OZz"/>
+                            <constraint firstItem="F7w-n1-Imw" firstAttribute="trailing" secondItem="qay-wz-Hza" secondAttribute="trailing" id="8Le-Rp-Bta"/>
                             <constraint firstItem="4xU-ec-W2Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="B6M-3f-hah"/>
                             <constraint firstItem="qay-wz-Hza" firstAttribute="leading" secondItem="4xU-ec-W2Z" secondAttribute="leading" id="BLJ-lO-kIb"/>
                             <constraint firstItem="qay-wz-Hza" firstAttribute="trailing" secondItem="4xU-ec-W2Z" secondAttribute="trailing" id="CAK-Ki-loh"/>
