@@ -13,6 +13,7 @@ In [PR #3](https://github.com/Ferdzz/ScreenshotTestingDemo/pull/3), we have a CI
 ## Validating on development machines
 
 When running the unit tests in the failure branch, iOSSnapshotTestCase generates an image file with the visual diff between the two:
+
 <img src="https://user-images.githubusercontent.com/7923672/156423594-4df37e41-e458-4a51-9bb1-601b1919a866.png" width="180"/>
 
 The medium gray background indicates no change between the versions. Notice the gray line towards the upper middle part of the screenshot. This is where the library detected changes. This indicates to us that there is a problem with the password field. It's width has changed.
